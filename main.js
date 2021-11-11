@@ -4,6 +4,7 @@ const closeBtn = document.querySelector(".close-btn");
 const dvd = document.querySelector(".dvd");
 const text = document.querySelector(".text-1");
 const bottom = document.querySelector(".content-bottom");
+const plus = document.querySelector(".pre-order");
 
 const mouseRollOver = () => {
   let mouseEnterTimer;
@@ -16,6 +17,7 @@ const mouseRollOver = () => {
     dvd.style.animation = "ps3-ps4 3s linear 2s 1";
     text.style.animation = "slide-text 3s ease-in-out 5s 1 forwards";
     bottom.style.animation = "bottom 1s linear 8s 1 forwards";
+    plus.style.animation = "plus 1s linear 8.5s 1 forwards";
   });
 };
 
