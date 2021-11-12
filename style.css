@@ -208,6 +208,7 @@ footer {
   height: 24px;
   padding: 2rem;
   cursor: pointer;
+  position: relative;
   z-index: 999;
 }
 .close-btn:hover {
